@@ -52,17 +52,14 @@ section {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-section:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(6, 182, 212, 0.6); /* stronger glow on hover */
-}
 section h2 {
-  color: #f8fafc;
+  background: linear-gradient(90deg, #06b6d4, #3b82f6, #0ea5e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   border-bottom: 2px solid #2563eb;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
-
 .job h3 {
   margin: 0;
   font-size: 1.2rem;

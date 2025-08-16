@@ -1,4 +1,17 @@
 /* Dark Cloud Engineer Theme */
+
+/* Remove black box on click/focus for links */
+a:focus {
+  outline: none;
+}
+
+/* Optional: replace with subtle glow for accessibility */
+a:focus-visible {
+  outline: 2px dashed #60a5fa;
+  outline-offset: 3px;
+}
+
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;

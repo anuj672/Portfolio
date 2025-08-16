@@ -1,58 +1,73 @@
+/* Global */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9fafb;
-  color: #333;
+  background: #f3f4f6; /* light gray (AWS console vibe) */
+  color: #1f2937;
   line-height: 1.6;
 }
 
+/* Header */
 header {
-  background: #111827;
+  background: linear-gradient(90deg, #0f172a, #1e3a8a); /* dark to tech-blue */
   color: #fff;
   text-align: center;
   padding: 2rem 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 header h1 {
   margin: 0;
   font-size: 2.5rem;
+  font-weight: 700;
 }
 
 header p {
   margin: 0.5rem 0;
-  font-size: 1.2rem;
-  color: #d1d5db;
+  font-size: 1.1rem;
+  color: #cbd5e1;
 }
 
+/* Navigation */
 nav {
   margin-top: 1rem;
 }
 
 nav a {
-  color: #60a5fa;
-  margin: 0 0.75rem;
+  color: #fff;
+  background: #2563eb; /* AWS blue */
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.3s;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background: #1d4ed8; /* darker hover */
 }
 
+/* Sections */
 section {
   padding: 2rem;
   max-width: 900px;
-  margin: auto;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 section h2 {
-  color: #1f2937;
-  border-bottom: 2px solid #e5e7eb;
+  color: #111827;
+  border-bottom: 3px solid #2563eb;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
+/* Jobs / Experience */
 .job {
   margin-bottom: 1.5rem;
 }
@@ -60,13 +75,13 @@ section h2 {
 .job h3 {
   margin: 0;
   font-size: 1.2rem;
-  color: #111827;
+  color: #1e293b;
 }
 
 .job p {
   margin: 0.3rem 0;
   font-style: italic;
-  color: #6b7280;
+  color: #64748b;
 }
 
 .job ul {
@@ -77,16 +92,19 @@ ul li {
   margin-bottom: 0.5rem;
 }
 
+/* Skills Section */
 #skills p {
   margin: 0.4rem 0;
+  font-family: monospace;
+  background: #f9fafb;
+  padding: 0.3rem 0.5rem;
+  border-left: 4px solid #2563eb;
 }
 
-#certifications ul {
-  margin-left: 1.5rem;
-}
-
+/* Contact Links */
 #contact a {
   color: #2563eb;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -94,10 +112,12 @@ ul li {
   text-decoration: underline;
 }
 
+/* Footer */
 footer {
-  background: #111827;
-  color: #9ca3af;
+  background: #0f172a;
+  color: #94a3b8;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+  border-top: 2px solid #2563eb;
 }

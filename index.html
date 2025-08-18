@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anuj | Career Trajectory</title>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  h1 {
+    color: #60a5fa;
+    margin-bottom: 40px;
+  }
+
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+  }
+
+  .box {
+    background: #1f2937;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+    text-align: center;
+    width: 220px;
+  }
+
+  .box:hover {
+    transform: translateY(-5px);
+    background: #2563eb;
+  }
+
+  .box h3 {
+    margin: 0 0 10px 0;
+    color: #38bdf8;
+  }
+
+  .box p {
+    margin: 0;
+    font-style: italic;
+    color: #cbd5e1;
+  }
+</style>
+</head>
+<body>
+  <h1>My Career Trajectory</h1>
+  <div class="box-container">
+    <div class="box" onclick="goToPortfolio()">
+      <h3>2020 – 2022</h3>
+      <p>HSBC – Cloud DevOps</p>
+    </div>
+    <div class="box" onclick="goToPortfolio()">
+      <h3>2022 – 2024</h3>
+      <p>NCSU – MS Electrical Eng.</p>
+    </div>
+    <div class="box" onclick="goToPortfolio()">
+      <h3>2023</h3>
+      <p>DevOps Work at NCSU</p>
+    </div>
+    <div class="box" onclick="goToPortfolio()">
+      <h3>2023</h3>
+      <p>Colorcon DevOps</p>
+    </div>
+    <div class="box" onclick="goToPortfolio()">
+      <h3>2024 – Present</h3>
+      <p>Colorcon – Software Engineer (DevOps)</p>
+    </div>
+  </div>
+
+<script>
+  function goToPortfolio() {
+    window.location.href = 'portfolio.html'; // replace with your main portfolio file
+  }
+</script>
+</body>
+</html>

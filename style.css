@@ -100,11 +100,11 @@ ul li {
   display: inline-block;
   background: #1f2937;
   color: #e2e8f0;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 0.9rem;
+  padding: 4px 8px;      /* smaller padding */
+  border-radius: 12px;
+  margin: 2px 3px 2px 0; /* smaller margin */
+  font-size: 0.85rem;    /* slightly smaller text */
   transition: background 0.3s, transform 0.2s;
-  white-space: nowrap;    /* prevents wrapping inside pill */
 }
 
 .skill-tags span:hover {

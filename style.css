@@ -81,6 +81,30 @@ ul li {
   margin-bottom: 0.5rem;
   color: #e2e8f0;
 }
+.skills-category {
+  margin-bottom: 20px;
+}
+
+.skills-category h3 {
+  color: #60a5fa;
+  margin-bottom: 8px;
+}
+
+.skill-tags span {
+  display: inline-block;
+  background: #1f2937;
+  color: #e2e8f0;
+  padding: 5px 12px;
+  border-radius: 12px;
+  margin: 4px 4px 4px 0;
+  font-size: 0.9rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.skill-tags span:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
 
 #skills p {
   margin: 0.4rem 0;

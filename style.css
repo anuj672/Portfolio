@@ -99,6 +99,15 @@ ul li {
   transition: color 0.3s;
 }
 
+#certifications a {
+  color: #e2e8f0; /* white-ish */
+  text-decoration: none;
+}
+
+#certifications a:hover {
+  color: #60a5fa; /* optional: change on hover for effect */
+  text-decoration: underline;
+}
 #contact a:hover {
   color: #60a5fa;
   text-decoration: underline;

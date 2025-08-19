@@ -104,6 +104,15 @@ ul li {
   text-decoration: underline;
 }
 
+.tech-icons img {
+  width: 50px;   /* sets the icon width */
+  height: 50px;  /* sets the icon height */
+  object-fit: contain; /* keeps aspect ratio without distortion */
+  transition: transform 0.3s;
+  filter: brightness(0) invert(1); /* white icons on dark background */
+  cursor: pointer;
+}
+
 footer {
   background: #111827;
   color: #9ca3af;

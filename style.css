@@ -104,14 +104,45 @@ ul li {
   text-decoration: underline;
 }
 
-.tech-icons img {
-  width: 50px;   /* sets the icon width */
-  height: 50px;  /* sets the icon height */
-  object-fit: contain; /* keeps aspect ratio without distortion */
-  transition: transform 0.3s;
-  filter: brightness(0) invert(1); /* white icons on dark background */
-  cursor: pointer;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
+
+.project-card {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s, background 0.3s;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background: #2563eb;
+}
+
+.project-card h3 {
+  color: #38bdf8;
+  margin-top: 0;
+}
+
+.project-card p {
+  color: #cbd5e1;
+}
+
+.project-card a {
+  color: #60a5fa;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
 
 footer {
   background: #111827;

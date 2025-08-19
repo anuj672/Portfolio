@@ -90,21 +90,28 @@ ul li {
   margin-bottom: 8px;
 }
 
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;       /* allows line breaks automatically */
+  gap: 8px;              /* spacing between pills */
+}
+
 .skill-tags span {
   display: inline-block;
   background: #1f2937;
   color: #e2e8f0;
-  padding: 5px 12px;
-  border-radius: 12px;
-  margin: 4px 4px 4px 0;
+  padding: 6px 14px;
+  border-radius: 20px;
   font-size: 0.9rem;
   transition: background 0.3s, transform 0.2s;
+  white-space: nowrap;    /* prevents wrapping inside pill */
 }
 
 .skill-tags span:hover {
   background: #2563eb;
   transform: translateY(-2px);
 }
+
 
 #skills p {
   margin: 0.4rem 0;
